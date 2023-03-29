@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { AuthProvider } from "oidc-react";
+import { AsertoProvider } from '@aserto/aserto-react';
 
 const configuration = {
   authority: `https://${process.env.REACT_APP_OIDC_DOMAIN}/dex`,
@@ -21,7 +22,9 @@ const configuration = {
 ReactDOM.render(
   <React.StrictMode>
     <AuthProvider {...configuration}>
-      <App />
+      <AsertoProvider>
+        <App />
+      </AsertoProvider>
     </AuthProvider>
   </React.StrictMode>,
   document.getElementById("root")
