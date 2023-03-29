@@ -4,13 +4,13 @@ There are two projects in this repo - a React client (in `./src`), and a node.js
 
 ## Building 
 
-To build the client, install dependencies with the command:
+To build both the React client as well as the service, install dependencies with the command:
 
 ```
-yarn install
+yarn install:all
 ```
 
-To build the service, `cd service` and repeat `yarn install`. 
+This will run `yarn install` in both the main directory as well as in the `service` directory.
 
 ## Running 
 

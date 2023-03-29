@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const { expressjwt: jwt } = require("express-jwt");
-const { displayStateMap, jwtAuthz } = require('@aserto/aserto-node')
+const { jwtAuthz } = require('@aserto/aserto-node')
 const jwksRsa = require("jwks-rsa");
 const cors = require("cors");
 const app = express();
@@ -35,7 +35,6 @@ const checkJwt = jwt({
 
 // Enable CORS
 app.use(cors());
-app.use(displayStateMap(authzOptions));
 
 // Protected API endpoint
 app.get("/api/protected", checkJwt, checkAuthz, function (req, res) {

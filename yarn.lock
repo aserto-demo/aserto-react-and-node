@@ -11,18 +11,6 @@
     jsonpointer "^5.0.0"
     leven "^3.1.0"
 
-"@aserto/aserto-react@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@aserto/aserto-react/-/aserto-react-0.2.2.tgz#b7bd82fa8587f02461dfb25525121f7000047acb"
-  integrity sha512-bvUSTTH3CylVczM2v8mL8zkSJr4L6QhPvaLKuT4z9y3VRNzD4Bt0DDJP1Rs/f6faH2pmyx9gBdxTQ8E9uR3nOg==
-  dependencies:
-    "@aserto/aserto-spa-js" "^0.2.2"
-
-"@aserto/aserto-spa-js@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@aserto/aserto-spa-js/-/aserto-spa-js-0.2.2.tgz#cdf060943342e44940feb96429b1ab0c191343a7"
-  integrity sha512-6eKrxnqu1fHhtHePnIHCc32H3OkwGgaSTE2KxYXp1Lz8Ol+ET4/wtNiqY4cwYgKNslj9l080F3g3af7YCbD8pw==
-
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.16.0", "@babel/code-frame@^7.8.3":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.16.0.tgz#0dfc80309beec8411e65e706461c408b0bb9b431"
